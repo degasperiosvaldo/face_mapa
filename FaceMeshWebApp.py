@@ -78,7 +78,7 @@ st.markdown(
 
 
 # Setting the Title of the Streamlit App
-# st.title("""Face Mesh Detection Web App""")
+# st.title("""Face Mesh Detection Web App osg""")
 st.markdown("""<p style="font-size:50px;font-weight:500;">Face Mesh Detection Web App</p>""",
             unsafe_allow_html=True)
 
