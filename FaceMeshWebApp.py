@@ -123,7 +123,7 @@ SelectAppMode = st.sidebar.selectbox('Selecione um modo de aplicativo',
                                      )
 
 # Executing statements according to the User's choice
-if SelectAppMode == 'Descrição':
+if SelectAppMode == 'Detalhes do aplicativo':
 
     st.sidebar.markdown('---')
 
@@ -230,7 +230,7 @@ if SelectAppMode == 'Descrição':
 MPDrawing = mp.solutions.drawing_utils
 MPFaceMesh = mp.solutions.face_mesh
 
-if SelectAppMode == 'Image Mode':
+if SelectAppMode == 'Imagem':
 
     st.sidebar.markdown('---')
 
@@ -369,7 +369,7 @@ if SelectAppMode == 'Image Mode':
                 f"<h1 style='text-align:center;color: #8B3DFF;'>{FaceCount}</h1>", unsafe_allow_html=True)
 
 
-if SelectAppMode == 'Video Mode':
+if SelectAppMode == 'Vídeo':
 
     st.markdown(
         """<p style="font-size: 32px; font-weight:500;color: #8B3DFF;">Resulting Output Video</p>""", unsafe_allow_html=True)
