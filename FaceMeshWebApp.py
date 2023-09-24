@@ -125,8 +125,6 @@ SelectAppMode = st.sidebar.selectbox('Selecione um modo de aplicativo',
 # Executing statements according to the User's choice
 if SelectAppMode == 'Detalhes do aplicativo':
 
-    st.sidebar.markdown('---')
-
     # st.subheader('How To Use This App')
     st.markdown("""<p style="font-size: 32px; font-weight:500;color: #8B3DFF;">How to Use This App</p>""",
                 unsafe_allow_html=True)
