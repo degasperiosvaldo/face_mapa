@@ -127,29 +127,6 @@ if SelectAppMode == 'Detalhes do aplicativo':
 
     st.sidebar.markdown('---')
 
-    # st.subheader('Sobre o aplicativo')
-    st.markdown("""<p style="font-size: 32px; font-weight:500;color: #8B3DFF;">About This Project</p>""",
-                unsafe_allow_html=True)
-
-    st.markdown(
-
-        """
-        <p style="font-size: 20px;">
-        This is a <b>Face Mesh Detection Web Application</b> made using a Python library called <b>Streamlit</b>. The Face Mesh is detected using a pretrained model provided by Google's <b>MediaPipe Python library</b>. The Image or Video frames are processed using <b>OpenCV</b> and <b>Pillow</b>.
-
-        <p style="font-size: 20px;">Made By: <b>Mohd Ali Bin Naser</b></p>
-        <p style="font-size: 20px;">Project Date: <b>March 2022</b></p>
-        <p style="font-size: 20px;">Tech Stack: <b>Python , OpenCV , Mediapipe , Streamlit , Numpy , Pillow</b></p>
-        <p style="font-size: 20px;">Github: <b>github.com/mohdalibn</b></p>
-        <p style="font-size: 20px;">Qualification: <b>Pursuing a Bachelor's Degree in Computer Science</b></p>
-
-
-        </p>
-        """, unsafe_allow_html=True
-    )
-
-    st.markdown('---')
-
     # st.subheader('How To Use This App')
     st.markdown("""<p style="font-size: 32px; font-weight:500;color: #8B3DFF;">How to Use This App</p>""",
                 unsafe_allow_html=True)
@@ -193,7 +170,7 @@ if SelectAppMode == 'Detalhes do aplicativo':
 
     st.markdown('---')
 
-    # st.subheader('How To Use This App')
+    # st.subheader('Como usar este aplicativo')
     st.markdown("""<p style="font-size: 32px; font-weight:500;color: #8B3DFF;">Important Note</p>""",
                 unsafe_allow_html=True)
 
