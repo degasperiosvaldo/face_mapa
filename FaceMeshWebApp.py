@@ -79,12 +79,12 @@ st.markdown(
 
 # Setting the Title of the Streamlit App
 # st.title("""Face Mesh Detection Web App osg""")
-st.markdown("""<p style="font-size:50px;font-weight:500;">Face Mesh Detection Web App osg</p>""",
+st.markdown("""<p style="font-size:50px;font-weight:500;">Detecção de malha facial</p>""",
             unsafe_allow_html=True)
 
 st.markdown('---')
 
-st.sidebar.title('Face Mesh App Controls')  # Sidebar Title
+st.sidebar.title('Controles do aplicativo')  # Sidebar Title
 # st.sidebar.subheader('parameters')  # Sidebar subheading
 
 
@@ -117,17 +117,17 @@ def FrameResize(Frame, FrameWidth=None, FrameHeight=None, InterpolationMtd=cv2.I
 
 # Creating a Streamlit Selectbox to give the user options to select a mode
 
-SelectAppMode = st.sidebar.selectbox('Select an App Mode',
-                                     ['Face Mesh App Details',
-                                         'Image Mode', 'Video Mode'],
+SelectAppMode = st.sidebar.selectbox('Selecione um modo de aplicativo',
+                                     ['Detalhes do aplicativo',
+                                         'Imagem', 'Vídeo'],
                                      )
 
 # Executing statements according to the User's choice
-if SelectAppMode == 'Face Mesh App Details':
+if SelectAppMode == 'Descrição':
 
     st.sidebar.markdown('---')
 
-    # st.subheader('About This Project')
+    # st.subheader('Sobre o aplicativo')
     st.markdown("""<p style="font-size: 32px; font-weight:500;color: #8B3DFF;">About This Project</p>""",
                 unsafe_allow_html=True)
 
