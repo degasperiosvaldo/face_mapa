@@ -140,15 +140,15 @@ if SelectAppMode == 'Detalhes do aplicativo':
 
         </p>
         <p style="font-size: 22px;color: #8B3DFF;">
-            <b>Image Mode</b>.      
+            <b>Modo Imagem</b>.      
         </p>
 
         <p style="font-size: 20px;">
-            Under the Image Mode, the User has the option to  <b>Upload an Image</b>. By default, the App already loads a <b>Demo Image</b>.
+            No Modo Imagem, o usuário tem a opção de  <b> fazer upload de uma imagem</b>. Por padrão, o App já carrega uma <b>Imagem Demo</b>.
         </p>
 
         <p style="font-size: 20px;margin-bottom:2.5rem;">
-            On the Sidebar, the User has the option to control 4 different <b>Parameters</b>. The first one is option to <b>Select the number of faces to detect in the Image</b>. That is followed by three sliders which gives the User the ability to adjust the <b>Detection Confidence</b>, <b>Mesh Thickness</b>, and <b>Mesh Circle Radius</b> respectively.
+            Na barra lateral o usuário tem a opção de controlar 4 <b>parâmetros </b> diferentes. A primeira é a opção de <b>selecionar o número de rostos a serem detectados na imagem</b>. That is followed by three sliders which gives the User the ability to adjust the <b>Detection Confidence</b>, <b>Mesh Thickness</b>, and <b>Mesh Circle Radius</b> respectively.
         </p>
 
         <p style="font-size: 22px;color: #8B3DFF;">
