@@ -133,10 +133,11 @@ if SelectAppMode == 'Detalhes do aplicativo':
 
         """
         <p style="font-size: 20px;">
-            To get started, first choose an App Mode from the Sidebar on the left side of the page. 
+Para começar, primeiro escolha um modo de aplicativo na barra lateral no lado esquerdo da página.
         </p>
         <p style="font-size: 20px;margin-bottom:2.5rem;">
-            There are two Modes Available: <b>Image Mode</b> & <b>Video Mode</b>. 
+Existem dois modos disponíveis: Modo de imagem e Modo de vídeo .
+
         </p>
         <p style="font-size: 22px;color: #8B3DFF;">
             <b>Image Mode</b>.      
