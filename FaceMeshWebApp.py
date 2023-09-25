@@ -126,17 +126,17 @@ SelectAppMode = st.sidebar.selectbox('Selecione um modo de aplicativo',
 if SelectAppMode == 'Detalhes do aplicativo':
 
     # st.subheader('How To Use This App')
-    st.markdown("""<p style="font-size: 32px; font-weight:500;color: #8B3DFF;">How to Use This App</p>""",
+    st.markdown("""<p style="font-size: 32px; font-weight:500;color: #8B3DFF;">Como usar este aplicativo</p>""",
                 unsafe_allow_html=True)
 
     st.markdown(
 
         """
         <p style="font-size: 20px;">
-Para começar, primeiro escolha um modo de aplicativo na barra lateral no lado esquerdo da página.
+            Para começar, primeiro escolha um modo de aplicativo na barra lateral no lado esquerdo da página.
         </p>
         <p style="font-size: 20px;margin-bottom:2.5rem;">
-Existem dois modos disponíveis: Modo de imagem e Modo de vídeo .
+            Existem dois modos disponíveis: Modo de imagem e Modo de vídeo .
 
         </p>
         <p style="font-size: 22px;color: #8B3DFF;">
