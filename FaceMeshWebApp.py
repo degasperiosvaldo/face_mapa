@@ -152,7 +152,7 @@ if SelectAppMode == 'Detalhes do aplicativo':
         </p>
 
         <p style="font-size: 22px;color: #8B3DFF;">
-            <b>Video Mode</b>. 
+            <b>Modo vídeo</b>. 
         </p>
 
         <p style="font-size: 20px;">
